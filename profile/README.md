@@ -44,3 +44,8 @@ HHPB-Code는 Java와 Spring Boot를 기반으로 백엔드 개발의 다양한 �
   - [콘서트 시나리오 동시성 이슈 분석](https://github.com/hhpb-code/hhplus-concert/pull/28)
   - [동시성 제어 고도화 (비관적락, 낙관적락, 분산락)](https://github.com/hhpb-code/hhplus-concert/pull/29)
 - 7주차: 콘서트 예약 서비스의 캐시와 Redis를 활용한 성능 개선하기
+  - [쿼리 캐싱 혹은 Redis 를 이용한 로직 이관을 통해 성능 개선 보고서](https://github.com/hhpb-code/hhplus-concert/pull/31)
+  - [콘서트 예약 시나리오 대기열 개선 RDBMS -> Redis](https://github.com/hhpb-code/hhplus-concert/pull/32)
+- 8주차: 콘서트 예약 서비스의 인덱스와 부가기능 추가하기
+  - [인덱스 추가 및 보고서 작성](https://github.com/hhpb-code/hhplus-concert/pull/34)
+  - [MSA 관점에서 트랜잭션 관리 보고서 작성 및 예약 완료 Event 구현](https://github.com/hhpb-code/hhplus-concert/pull/36)
