@@ -22,7 +22,7 @@ HHPB-Code는 Java와 Spring Boot를 기반으로 백엔드 개발의 다양한 �
 - 테스팅: JUnit, Mockito
 - 빌드 도구: Gradle
 - 버전 관리: Git, GitHub
-- 클라우드: AWS
+- 부하 테스트 및 모니터링 도구: k6, Prometheus, Grafana
 
 ## 커리큘럼
 
