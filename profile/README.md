@@ -55,3 +55,6 @@ HHPB-Code는 Java와 Spring Boot를 기반으로 백엔드 개발의 다양한 �
 - 10주차: 콘서트 예약 서비스 부하 테스트 및 가상 장애 대응 문서 작성
   - [부하 테스트 대상 선정 및 목적 보고서](https://github.com/hhpb-code/hhplus-concert/pull/41)
   - [부하 테스트 결과 분석 및 가상 장애 대응 문서 작성](https://github.com/hhpb-code/hhplus-concert/pull/42)
+
+## 배지 이미지
+<img src="https://github.com/user-attachments/assets/852abc96-3ec6-46ad-a044-655e8c8a1fd3" alt="TDD 배지" width="400"/>
