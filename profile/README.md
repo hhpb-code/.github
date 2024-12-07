@@ -40,12 +40,18 @@ HHPB-Code는 Java와 Spring Boot를 기반으로 백엔드 개발의 다양한 �
 - 5주차: 콘서트 예약 서비스 에러 핸들링 및 Filter나 Interceptor을 활용한 기능 관점 분리하기
   - [글로벌 에러 핸들러, 토큰 검증 인터셉터 등록](https://github.com/hhpb-code/hhplus-concert/pull/24)
   - [시나리오별 동시성 통합 테스트 작성 및 회고](https://github.com/hhpb-code/hhplus-concert/pull/26)
-- 6주차: 콘서트 예약 서비스의 동시성 제어하기
+- 6주차: 콘서트 예약 서비스 동시성 제어하기
   - [콘서트 시나리오 동시성 이슈 분석](https://github.com/hhpb-code/hhplus-concert/pull/28)
   - [동시성 제어 고도화 (비관적락, 낙관적락, 분산락)](https://github.com/hhpb-code/hhplus-concert/pull/29)
-- 7주차: 콘서트 예약 서비스의 캐시와 Redis를 활용한 성능 개선하기
+- 7주차: 콘서트 예약 서비스 캐시와 Redis를 활용한 성능 개선하기
   - [쿼리 캐싱 혹은 Redis 를 이용한 로직 이관을 통해 성능 개선 보고서](https://github.com/hhpb-code/hhplus-concert/pull/31)
   - [콘서트 예약 시나리오 대기열 개선 RDBMS -> Redis](https://github.com/hhpb-code/hhplus-concert/pull/32)
-- 8주차: 콘서트 예약 서비스의 인덱스와 부가기능 추가하기
+- 8주차: 콘서트 예약 서비스 인덱스와 부가기능 추가하기
   - [인덱스 추가 및 보고서 작성](https://github.com/hhpb-code/hhplus-concert/pull/34)
   - [MSA 관점에서 트랜잭션 관리 보고서 작성 및 예약 완료 Event 구현](https://github.com/hhpb-code/hhplus-concert/pull/36)
+- 9주차: 콘서트 예약 서비스 kafka 연동 및 Transactional Outbox Pattern 적용
+  - [kafka consumer, producer 작성 및 통합 테스트](https://github.com/hhpb-code/hhplus-concert/pull/39)
+  - [카프카 메시지 발행 적용 및 Transactional Outbox Pattern 적용](https://github.com/hhpb-code/hhplus-concert/pull/40)
+- 10주차: 콘서트 예약 서비스 부하 테스트 및 가상 장애 대응 문서 작성
+  - [부하 테스트 대상 선정 및 목적 보고서](https://github.com/hhpb-code/hhplus-concert/pull/41)
+  - [부하 테스트 결과 분석 및 가상 장애 대응 문서 작성](https://github.com/hhpb-code/hhplus-concert/pull/42)
